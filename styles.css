@@ -38,6 +38,11 @@ html{
     text-decoration: none;
     color: #1F434B;
 }
+#webgeng{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #007bff;
+}
 .link{
 	text-decoration: none;
 	color: #007bff;
@@ -45,9 +50,4 @@ html{
 .link:hover{
 	text-decoration: none;
 	color: #1F434B;
-}
-#webgeng{
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: #007bff;
 }
