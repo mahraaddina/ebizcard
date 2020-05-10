@@ -52,6 +52,8 @@ html{
 	text-decoration: none;
 	color: #1F434B;
 }
-[class*="col-"] {
-    width: 100%;
-}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    html {
+        width: 100%;
+  }
