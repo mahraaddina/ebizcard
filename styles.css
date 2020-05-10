@@ -52,3 +52,11 @@ html{
 	text-decoration: none;
 	color: #1F434B;
 }
+.fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #1F434B;
+    ;
+    padding: 10px 0;
+    color: #007bff;
+}
