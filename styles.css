@@ -57,7 +57,5 @@ html{
     background: #1F434B;
     padding: 10px 0;
     color: #007bff;
-}
-.footer{
-    bottom: 0;
+    margin-top: 10px;
 }
