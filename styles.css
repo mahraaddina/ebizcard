@@ -52,10 +52,8 @@ html{
 	text-decoration: none;
 	color: #1F434B;
 }
-.footer{
-    width: 100%;       
+.footer{     
     background: #1F434B;
     padding: 10px 0;
     color: #007bff;
-    margin-top: 10px;
 }
