@@ -1,0 +1,50 @@
+html{
+    background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
+    overflow: none;
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 1370px 650px;
+}
+#content{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+
+    background-color: #D8DFE0;
+    box-shadow: 1px 1px 10px rgba(0,0,0,30%);
+
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -300px;
+    top:50%;
+    margin-top: -200px;
+    font-family: Quicksand;
+}
+#photo{
+    width:150px;
+    border-radius: 50%;
+}
+#name{
+    margin-top: 20px;
+}
+#email{
+    margin-bottom: 35px;
+    text-decoration: none;
+    color: #007bff;
+}
+#email:hover{
+    text-decoration: none;
+    color: #1F434B;
+}
+.link{
+	text-decoration: none;
+	color: #007bff;
+}
+.link:hover{
+	text-decoration: none;
+	color: #1F434B;
+}
