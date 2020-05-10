@@ -31,13 +31,16 @@ html{
     margin-top: 20px;
 }
 #email{
-    margin-bottom: 35px;
     text-decoration: none;
     color: #007bff;
 }
 #email:hover{
     text-decoration: none;
     color: #1F434B;
+}
+#website{
+    text-decoration: none;
+    color: #007bff;
 }
 .link{
 	text-decoration: none;
