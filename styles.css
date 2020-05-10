@@ -54,6 +54,6 @@ html{
 }
 @media (min-width: 320px) and (max-width: 480px) {
   
-    html {
+    html, #content, #photo, #name, #email, #webgeng, .link {
         width: 100%;
   }
