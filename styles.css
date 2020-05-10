@@ -52,7 +52,6 @@ html{
 	text-decoration: none;
 	color: #1F434B;
 }
-.new-footer{     
-    padding: 10px 0;
-    color: #007bff;
+footer{     
+    display: block;
 }
