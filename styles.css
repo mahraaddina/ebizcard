@@ -69,18 +69,18 @@ html{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     content, photo, name, email, webgeng, .link {
-        font-size: 50px;
+        font-size: 20px;
 }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     content, photo, name, email, webgeng, .link {
-        font-size: 70px;
+        font-size: 10px;
 }
 }
 /* Extra Large devices (large laptops and desktops, 1200px and up)  */
 @media only screen and (min-width: 1200px) {
     content, photo, name, email, webgeng, .link {
-        font-size: 80px;
+        font-size: 10px;
 }
 }
