@@ -52,36 +52,36 @@ html{
 	text-decoration: none;
 	color: #1F434B;
 }
-/* Extra small devices (phones, 600px and down) 
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    content {
+    #content, #photo, #name, #email, #webgeng, .link {
         font-size: 10px;
 }
 }
 
-Small devices (portrait tablets and large phones, 600px and up) 
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    content {
+    #content, #photo, #name, #email, #webgeng, .link {
         font-size: 20px;
 }
 }
 
-Medium devices (landscape tablets, 768px and up) 
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #content {
+    #content, #photo, #name, #email, #webgeng, .link {
         font-size: 50px;
 }
 }
-Large devices (laptops/desktops, 992px and up) 
+/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #content {
+    #content, #photo, #name, #email, #webgeng, .link {
         width: 100%;
         font-size: 70px;
 }
 }
- Extra Large devices (large laptops and desktops, 1200px and up)  
+/* Extra Large devices (large laptops and desktops, 1200px and up)  */
 @media only screen and (min-width: 1200px) {
-    #content {
+    #content, #photo, #name, #email, #webgeng, .link {
         font-size: 80px;
 }
-}*/
+}
