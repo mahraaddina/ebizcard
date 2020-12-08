@@ -3,6 +3,7 @@
 <html>
 
 <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -14,10 +15,39 @@
         <link rel = "stylesheet" href = "styles.css">
         <style>
                 footer {text-align: center;}
+        @media screen and (min-width: 600px) {
+        h1 {
+                font-size: 60px;
+        }
+        }
+        @media screen and (max-width: 600px) {
+        h1 {
+                font-size: 30px;
+        }
+        }
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+        h1 {
+                font-size: 40px;
+        }
+        }
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+        h1 {
+                font-size: 90px;
+        }
+        }
+
+        /* Extra Large devices (large laptops and desktops, 1200px and up)  */
+        @media only screen and (min-width: 1200px) {
+        h1 {
+                font-size: 100px;
+        }
+        }
+
         </style>
 
         <title>Mahra's E-Business Card</title>
-
 </head>
 
 <body>
@@ -32,5 +62,27 @@
     </h4>
     <a class="webgeng" href="http://generationgirl.org">generationgirl.org</a>
     <p></p>
+    <div class = "row">
+        <div class = "col-lg-3">
+                <a href = "http://twitter.com/@mahraaddina" class = "link">
+                        Twitter
+                </a>
+        </div>
+        <div class = "col-lg-3">
+                <a href = "http://instagram.com/mahraaddina" class = "link">
+                        Instagram
+                </a>
+        </div>
+        <div class = "col-lg-3">
+                <a href = "https://www.linkedin.com/in/mahra-addina-44164a192/" class = "link">
+                        LinkedIn
+                </a>
+        </div>
+        <div class = "col-lg-3">
+                <a href = "https://github.com/mahraaddina" class = "link">
+                        Github
+                </a>
+        </div>
+</div>
 </body>
 </html>

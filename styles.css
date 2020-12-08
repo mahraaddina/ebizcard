@@ -43,4 +43,18 @@ html{
     text-decoration: none;
     color: #007bff;
 }
-
+.link{
+    margin-top: 40px;
+	text-decoration: none;
+	color: #007bff;
+}
+.link:hover{
+	text-decoration: none;
+	color: #1F434B;
+}
+/*@media (min-width: 320px) and (max-width: 480px) {
+  
+    html, #content, #photo, #name, #email, #webgeng, .link {
+        width: 100%;
+  }
+}*/
