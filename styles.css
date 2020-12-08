@@ -43,6 +43,15 @@ html{
     text-decoration: none;
     color: #007bff;
 }
+.link{
+    margin-top: 10px;
+	text-decoration: none;
+	color: #007bff;
+}
+.link:hover{
+	text-decoration: none;
+    color: #1F434B;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     h1 {
