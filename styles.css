@@ -75,7 +75,6 @@ html{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     content, photo, name, email, webgeng, .link {
-        width: 100%;
         font-size: 70px;
 }
 }
