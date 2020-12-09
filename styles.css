@@ -1,52 +1,71 @@
-html{
+html {
     background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
     overflow: none;
     background-size: cover;
     display: inline-block;
     background-repeat: repeat;
-}
-#content{
+  }
+  #content {
     width: 600px;
     height: 400px;
     text-align: center;
     padding: 50px;
     border-radius: 5px;
-
-    background-color: #D8DFE0;
-    box-shadow: 1px 1px 10px rgba(0,0,0,30%);
-
+  
+    background-color: #d8dfe0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 30%);
+  
     position: absolute;
     margin: -200px 0 0 -300px;
     left: 50%;
     top: 50%;
     font-family: Quicksand;
-}
-#photo{
+  }
+  #photo {
     width: 150px;
     border-radius: 50%;
-}
-#name{
+  }
+  #name {
     margin-top: 20px;
-}
-#email{
+  }
+  #email {
     text-decoration: none;
     color: #007bff;
-}
-#email:hover{
+  }
+  #email:hover {
     text-decoration: none;
-    color: #1F434B;
-}
-#webgeng{
+    color: #1f434b;
+  }
+  #webgeng {
     margin-bottom: 25px;
     text-decoration: none;
     color: #007bff;
-}
-.link{
+  }
+  .link {
     margin-top: 40px;
-	text-decoration: none;
-	color: #007bff;
-}
-.link:hover{
-	text-decoration: none;
-	color: #1F434B;
-}
+    text-decoration: none;
+    color: #007bff;
+  }
+  .link:hover {
+    text-decoration: none;
+    color: #1f434b;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    #content {
+      width: 300px;
+      height: 650px;
+      font-size: 30px;
+  
+      left: 90%;
+      top: 35%;
+    }
+    #email {
+      font-size: 15px;
+    }
+    .webgeng {
+      font-size: 20px;
+    }
+  }
+  
