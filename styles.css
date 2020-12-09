@@ -1,9 +1,9 @@
 html{
     background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80);
     overflow: none;
-    background-size: 100%;
+    background-size: auto;
     display: inline-block;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 #content{
     width: 600px;
@@ -57,7 +57,7 @@ html{
     #content {
       width: 300px;
       height: 650px;
-      font-size: 30px;
+      font-size: 10px;
   
       left: 90%;
       top: 35%;
