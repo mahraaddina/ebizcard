@@ -72,10 +72,10 @@ html {
     #content {
         width: 550px;
         height: 350px;
-        font-size: 25px;
+        font-size: 30px;
     
         left: 50%;
-        top: 50%;
+        top: 40%;
       }
       #email {
         font-size: 15px;
