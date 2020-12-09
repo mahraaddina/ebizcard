@@ -50,5 +50,37 @@ html {
     text-decoration: none;
     color: #1f434b;
   }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #content {
+      width: 300px;
+      height: 650px;
+      font-size: 30px;
   
+      left: 90%;
+      top: 35%;
+    }
+    #email {
+      font-size: 15px;
+    }
+    .webgeng {
+      font-size: 20px;
+    }
+  }
+/* Extra small devices (phones, 600px and abpve) */
+@media only screen and (min-width: 600px) {
+    #content {
+      width: 600px;
+      height: 400px;
+      font-size: 30px;
   
+      left: 90%;
+      top: 35%;
+    }
+    #email {
+      font-size: 15px;
+    }
+    .webgeng {
+      font-size: 20px;
+    }
+  }
