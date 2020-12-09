@@ -55,7 +55,7 @@ html{
     #content {
       width: 300px;
       height: 600px;
-      font-size: 25px;
+      font-size: 30px;
   
       left: 90%;
       top: 35%;
@@ -71,7 +71,7 @@ html{
 @media only screen and (min-width: 600px) {
     #content {
       width: 300px;
-      height: 600px;
+      height: 550px;
       font-size: 20px;
   
       left: 90%;
