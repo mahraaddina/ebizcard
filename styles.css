@@ -70,9 +70,9 @@ html {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #content {
-        width: 600px;
-        height: 400px;
-        font-size: 15px;
+        width: 550px;
+        height: 350px;
+        font-size: 10px;
     
         left: 50%;
         top: 50%;
