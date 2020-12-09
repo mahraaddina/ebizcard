@@ -101,4 +101,20 @@ html {
         font-size: 20px;
       }
     }
+/* Extra Large devices (large laptops and desktops, 1200px and up)  */
+@media only screen and (min-width: 1200px) {
+    #content {
+        width: 600px;
+        height: 400px;
+        font-size: 30px;
+    
+        left: 50%;
+        top: 50%;
+      }
+      #email {
+        font-size: 15px;
+      }
+      .webgeng {
+        font-size: 20px;
+      }
 }
