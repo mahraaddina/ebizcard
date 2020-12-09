@@ -70,12 +70,13 @@ html {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #content {
-        width: 550px;
-        height: 350px;
-        font-size: 30px;
+        width: 600px;
+        height: 400px;
+        font-size: 20px;
     
+        margin: -200px 0 0 -300px;
         left: 50%;
-        top: 50%;
+        top: 35%;
       }
       #email {
         font-size: 15px;
